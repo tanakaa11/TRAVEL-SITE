@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Open+Sans:wght@300;500;700&family=Poppins:wght@400;500;600&display=swap');
+
+:root{
+  --teal:rgb(90, 233, 90) ;
+  --teal_hover: #279e8c;
+}
+
+
+
+*{
+    font-family: 'Merienda', cursive;           
+}
+
+.h1-font{
+    font-family: 'Poppins', sans-serif;
+
+}
+html,
+body {
+position: relative;
+height: 100%;
+}
+
+body {
+background: #eee;
+font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+font-size: 14px;
+color: #000;
+margin: 0;
+padding: 0;
+}
+
+.swiper {
+width: 100%;
+height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.swiper-slide img {
+display: block;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.custom-bg {
+    background-color: var(--teal) ;
+    border: 1px solid var(--teal);
+  }
+  .custom-bg:hover {
+    background-color:var(--teal_hover) ;
+  }
+  .availability-form{
+    margin-top: -50px;
+    z-index: 11;
+    position: relative;
+  }
+
+  /* Define the initial size of the swiper */
+  .swiper {
+    width: 100%;
+    height: 300px; /* Adjust the height as needed */
+  }
+
+  /* Use media queries to make the swiper responsive */
+  @media (min-width: 576px) {
+    /* Adjust the swiper size for screens wider than 576px */
+    .swiper {
+      height: 400px; /* Adjust the height as needed */
+    }
+  }
+
+  @media (min-width: 768px) {
+    /* Adjust the swiper size for screens wider than 768px */
+    .swiper {
+      height: 500px; /* Adjust the height as needed */
+    }
+  }
+
+  /* Add more media queries for different screen sizes if desired */
+
+  /* Additional CSS styling for the swiper */
+  .swiper-slide img {
+    width: 100%;
+    height: auto;
+  }
+
+  .container {
+    max-width: 90%;
+    overflow-x: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+  }
+
+  .h-line{
+    width:150px;
+    margin:0;
+    height:1.7px;
+
+  }
