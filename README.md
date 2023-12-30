@@ -33,6 +33,7 @@ Have questions or suggestions? Feel free to reach out:
 ---
 
 Happy coding! 🚀✨
-![Website Demo](https://i.gifer.com/PT7a.mp4)
+
 ```
+![Website Demo](https://i.gifer.com/PT7a.mp4)
 
