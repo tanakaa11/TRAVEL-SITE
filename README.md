@@ -33,7 +33,9 @@ Have questions or suggestions? Feel free to reach out:
 ---
 
 Happy coding! 🚀✨
+![Website Demo](https://i.gifer.com/PT7a.gifv)
+
 
 ```
-![Website Demo](https://i.gifer.com/PT7a.mp4)
+
 
